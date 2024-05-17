@@ -75,10 +75,17 @@ const AboutComponents = () => {
               </p>
             </div>
           </div>
-          <div className=" max-sm:w-full md:hidden max-sm:flex p-3 rounded-xl  justify-center items-center border border-zinc-700 bg-[#D47904]">
-            <button>Download CV</button>
-            <PiDownloadSimpleBold />
-          </div>
+          <a
+            className="z-20 cursor-pointer select-none"
+            target="_blank"
+            href="https://drive.usercontent.google.com/u/0/uc?id=1y_FWVqR0-Kf6xNJGmb8R9wSeQSbwIxjP&export=download"
+          >
+            <div className=" max-sm:w-full md:hidden max-sm:flex p-3 rounded-xl  justify-center items-center border border-zinc-700 bg-[#D47904]">
+              <button>Download CV</button>
+              <PiDownloadSimpleBold />
+            </div>
+          </a>
+
           <div className="max-sm:w-full  md:w-[35%] md:text-2xl flex justify-between flex-col">
             <div>
               <span className=" !text-base text-[#75747C]">Name</span>
