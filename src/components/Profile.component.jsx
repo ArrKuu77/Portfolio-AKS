@@ -73,7 +73,7 @@ const ProfileComponent = () => {
             <li className=" font-bold text-xl border max-sm:text-3xl border-zinc-700 p-2 rounded-full">
               <a
                 target="_blank"
-                href="https://www.facebook.com/zinmar.lay.3720"
+                // href="https://www.facebook.com/zinmar.lay.3720"
               >
                 <FaFacebook />
               </a>
@@ -81,7 +81,7 @@ const ProfileComponent = () => {
             <li className=" font-bold text-xl border max-sm:text-3xl border-zinc-700 p-2 rounded-full">
               <a
                 target="_blank"
-                href="https://www.instagram.com/zinmar.lay.3720/?fbclid=IwZXh0bgNhZW0CMTAAAR1ojaQlywP1vUY3iDPnbu99DhFs8eOvZQSKpdwa6BHKfgiColkTt0HGNGo_aem_AQD6Q-p12sRFl3IWNuRlckrKupvdw3LHxzEfut6Z3gqFn13XyrgbxBM-ptsufFenLvasRZjEymdXV78z0R-bzLN5"
+                // href="https://www.instagram.com/zinmar.lay.3720/?fbclid=IwZXh0bgNhZW0CMTAAAR1ojaQlywP1vUY3iDPnbu99DhFs8eOvZQSKpdwa6BHKfgiColkTt0HGNGo_aem_AQD6Q-p12sRFl3IWNuRlckrKupvdw3LHxzEfut6Z3gqFn13XyrgbxBM-ptsufFenLvasRZjEymdXV78z0R-bzLN5"
               >
                 <FaInstagramSquare />
               </a>

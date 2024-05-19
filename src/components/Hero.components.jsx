@@ -11,6 +11,7 @@ const HeroCcomponents = () => {
   // useEffect(() => {
   //   AOS.init({ duration: 2000 });
   // }, []);
+  const cvPDF = "./CV(zmo)1.pdf";
   const [text, { isDelete }] = useTypewriter({
     words: ["Zin Mar Oo"],
     loop: 0,
@@ -59,11 +60,11 @@ const HeroCcomponents = () => {
               <p>My Works</p> <RiAppsFill />
             </button>
           </Link>
-
           <a
             className="z-20 cursor-pointer select-none"
             target="_blank"
-            href="https://drive.usercontent.google.com/u/0/uc?id=1y_FWVqR0-Kf6xNJGmb8R9wSeQSbwIxjP&export=download"
+            href={cvPDF}
+            download
           >
             <button className="z-20 cursor-pointer select-none max-sm:w-full flex gap-3 items-center justify-center border border-zinc-700 p-3 rounded-2xl md:text-2xl font-bold">
               <p>Download CV</p> <PiDownloadSimpleBold />

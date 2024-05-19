@@ -187,7 +187,7 @@ const ContactComponents = () => {
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
-                href="https://www.facebook.com/zinmar.lay.3720"
+                // href="https://www.facebook.com/zinmar.lay.3720"
               >
                 <FaFacebook className=" w-[50%] h-[50%]" />
               </a>
@@ -197,7 +197,7 @@ const ContactComponents = () => {
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
-                href="https://www.instagram.com/zinmar.lay.3720/?fbclid=IwZXh0bgNhZW0CMTAAAR1ojaQlywP1vUY3iDPnbu99DhFs8eOvZQSKpdwa6BHKfgiColkTt0HGNGo_aem_AQD6Q-p12sRFl3IWNuRlckrKupvdw3LHxzEfut6Z3gqFn13XyrgbxBM-ptsufFenLvasRZjEymdXV78z0R-bzLN5"
+                // href="https://www.instagram.com/zinmar.lay.3720/?fbclid=IwZXh0bgNhZW0CMTAAAR1ojaQlywP1vUY3iDPnbu99DhFs8eOvZQSKpdwa6BHKfgiColkTt0HGNGo_aem_AQD6Q-p12sRFl3IWNuRlckrKupvdw3LHxzEfut6Z3gqFn13XyrgbxBM-ptsufFenLvasRZjEymdXV78z0R-bzLN5"
               >
                 <FaInstagramSquare className=" w-[50%] h-[50%]" />
               </a>
@@ -248,7 +248,7 @@ const ContactComponents = () => {
               <div className=" md:w-[25%]">
                 <h2>Email</h2>
                 <p className="text-stone-400 border-b-0 cursor-pointer hover:text-white hover:border-b duration-1000 translate-x-0 hover:translate-x-2 transition-all">
-                  zinmarlay786@gmail.com
+                  zinmarlay768@gmail.com
                 </p>
               </div>
             </div>

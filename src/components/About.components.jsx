@@ -6,6 +6,8 @@ import microsoft from "../image/microsoft.jpg";
 import computerBassic from "../image/computerBassic.png";
 
 const AboutComponents = () => {
+  const cvPDF = "./CV(zmo)1.pdf";
+
   return (
     <div
       className=" z-10 max-sm:h-[20%]  md:h-[18%]    "
@@ -78,7 +80,8 @@ const AboutComponents = () => {
           <a
             className="z-20 cursor-pointer select-none"
             target="_blank"
-            href="https://drive.usercontent.google.com/u/0/uc?id=1y_FWVqR0-Kf6xNJGmb8R9wSeQSbwIxjP&export=download"
+            href={cvPDF}
+            download
           >
             <div className=" max-sm:w-full md:hidden max-sm:flex p-3 rounded-xl  justify-center items-center border border-zinc-700 bg-[#D47904]">
               <button>Download CV</button>
