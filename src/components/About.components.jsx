@@ -10,7 +10,7 @@ const AboutComponents = () => {
 
   return (
     <div
-      className=" z-10 max-sm:h-[20%]  md:h-[18%]    "
+      className=" z-10 max-sm:h-[25%]  md:h-[18%]    "
       data-aos="fade-down"
       data-aos-delay="500"
       data-aos-duration="1500"
@@ -26,7 +26,7 @@ const AboutComponents = () => {
           {/* <h1>Turning complex problems into simple design</h1> */}
           <h1>Personal Information</h1>
         </div>
-        <div className="  max-sm:h-[22%]  md:h-[13%] max-sm:w-full max-sm:overflow-hidden">
+        <div className="  max-sm:h-[20%]  md:h-[13%] max-sm:w-full max-sm:overflow-hidden">
           <div className="max-sm:flex-col flex justify-between items-center gap-8 h-full">
             <div
               data-aos-offset="300"
@@ -57,23 +57,23 @@ const AboutComponents = () => {
             </div>
           </div>
         </div>
-        <div className=" flex justify-between max-sm:flex-col max-sm:h-[27%]">
+        <div className=" flex justify-between max-sm:flex-col max-sm:h-[24%]">
           <div className=" max-sm:w-full md:w-[60%]   md:text-2xl">
             <div className="">
+              <p>
+                I am seeking a suitable position that enables me to utilize and
+                fortify the attributes, skills and personal qualities. I have
+                always been anenergetic worker and I enjoy overcoming
+                challenges.
+              </p>
+            </div>
+            <div>
               <p>
                 I always try to get 100 achievement and i always got nearly 100
                 achievement in ever months. I always Building and maintaining
                 strong relationships with doctors, pharmacists, and other
                 medical personnel .i always timely reporting and documentation
                 of interactions with doctor .
-              </p>
-            </div>
-            <div>
-              <p>
-                I am seeking a suitable position that enables me to utilize and
-                fortify the attributes, skills and personal qualities. I have
-                always been anenergetic worker and I enjoy overcoming
-                challenges.
               </p>
             </div>
           </div>
@@ -92,20 +92,20 @@ const AboutComponents = () => {
           <div className="max-sm:w-full  md:w-[35%] md:text-2xl flex justify-between flex-col">
             <div>
               <span className=" !text-base text-[#75747C]">Name</span>
-              <h1>Zin Mar Oo</h1>
+              <h1>Aung Kaung San</h1>
             </div>
             <div>
               <span className=" !text-base text-[#75747C]">Phone</span>
-              <h1>09425826867</h1>
+              <h1>09250676890</h1>
             </div>
             <div>
               <span className=" !text-base text-[#75747C]">Email</span>
-              <h1>zinmarlay786@gmail.com</h1>
+              <h1>aungkungsan@gmail.com</h1>
             </div>
             <div>
               <span className=" !text-base text-[#75747C]">Location</span>
               <h1>
-                No(483/38),Pyin Oo Lwin Street,North Dagon Township,Yangon
+                No(468/46),Aye Yeit Nyein Street,North Dagon Township,Yangon
               </h1>
             </div>
           </div>
@@ -122,15 +122,16 @@ const AboutComponents = () => {
           </div>
         </a>
 
-        <div className="  h-[40%] max-sm:h-[20%] max-sm:w-full max-sm:overflow-hidden">
-          <div className=" max-sm:h-full flex max-sm:flex-col justify-center max-sm:w-full">
-            <div
-              data-aos="flip-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              className="  md:w-[45%] border  border-zinc-700 rounded-3xl p-3 flex justify-between flex-col   "
-            >
-              <div className=" h-[25%] flex justify-between flex-col px-2">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+          className="  h-[40%] max-sm:h-[40%] max-sm:w-full max-sm:overflow-hidden"
+        >
+          <div className=" max-sm:h-full flex max-sm:flex-col justify-between max-sm:w-full">
+            <div className="  md:w-[45%]  border  border-zinc-700 rounded-3xl p-3 flex justify-between flex-col   ">
+              <div className=" h-[30%] flex justify-between flex-col px-2">
                 <div className=" max-sm:text-2xl md:text-4xl">
                   <h1>Computer Bassic </h1>
                   <h1>Class</h1>
@@ -144,20 +145,15 @@ const AboutComponents = () => {
                   </p>
                 </div>
               </div>
-              <div className=" md:text-[23px] px-2">
+              <div className=" md:text-[20px] px-2">
                 <p>I work with microsoft office and email</p>
               </div>
               <div className=" h-[50%] overflow-hidden ">
                 <img src={computerBassic} alt="" />
               </div>
             </div>
-            {/* <div
-              data-aos="flip-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              className=" md:w-[45%] border  border-zinc-700 rounded-3xl p-3 flex justify-between flex-col   "
-            >
-              <div className=" h-[25%] flex justify-between flex-col px-2">
+            <div className=" md:w-[45%] border  border-zinc-700 rounded-3xl p-3 flex justify-between flex-col   ">
+              <div className=" h-[30%] flex justify-between flex-col px-2">
                 <div className=" max-sm:text-2xl md:text-4xl">
                   <h1>Frontend </h1>
                   <h1>development</h1>
@@ -171,13 +167,13 @@ const AboutComponents = () => {
                   </p>
                 </div>
               </div>
-              <div className=" md:text-[23px] px-2">
+              <div className=" md:text-[20px] px-2">
                 <p>I work with HTML/CSS, Framer and WordPress.</p>
               </div>
               <div className=" h-[50%] overflow-hidden ">
                 <img src={microsoft} alt="" />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

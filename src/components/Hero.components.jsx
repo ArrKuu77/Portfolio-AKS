@@ -13,7 +13,7 @@ const HeroCcomponents = () => {
   // }, []);
   const cvPDF = "./CV(zmo)1.pdf";
   const [text, { isDelete }] = useTypewriter({
-    words: ["Zin Mar Oo"],
+    words: ["Aung Kaung San"],
     loop: 0,
     typeSpeed: 100,
     delaySpeed: 1500,
@@ -31,7 +31,7 @@ const HeroCcomponents = () => {
       data-aos-easing="ease-in-out"
       data-aos-once="false"
     >
-      <div className="max-sm:w-full flex justify-evenly h-3/4 max-sm:h-full flex-col absolute bottom-0 z-10  ">
+      <div className="max-sm:w-full flex justify-evenly h-[85%] max-sm:h-full flex-col absolute bottom-0 z-10  ">
         <div className=" max-sm:w-1/2 border border-zinc-700 w-1/6 flex items-center justify-evenly p-2 rounded-2xl">
           <PiStarFourFill />
           <p>Let's meet!</p>
@@ -42,9 +42,8 @@ const HeroCcomponents = () => {
             <Cursor cursorStyle={isDelete ? "<" : ">"} cursorColor="orange" />
           </h1>
 
-          <h1 className=" md:text-7xl font-bold max-sm:text-3xl max-sm:h-[44%]">
-            {/* designer and illustrator. */}
-            Medical Representative (MR)
+          <h1 className=" md:text-7xl w-[90%] font-bold max-sm:text-3xl max-sm:h-[44%]">
+            Frontend developer and Medical Representative (MR)
           </h1>
         </div>
 

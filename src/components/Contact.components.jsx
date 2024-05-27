@@ -25,7 +25,7 @@ const ContactComponents = () => {
     setLoading(true);
 
     emailjs
-      .sendForm("service_dxc79fb", "template_af3g0lr", form.current, {
+      .sendForm("service_dxc79fb", "template_jtejhjh", form.current, {
         publicKey: "PcA-n6rmekdpHdx25",
       })
       .then(
@@ -75,11 +75,15 @@ const ContactComponents = () => {
           </div>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <div
-            className=" md:flex md:flex-wrap md:justify-between md:items-center max-sm:h-[32%] md:h-[35%]"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
+        <div
+          className="  max-sm:h-[32%] md:h-[35%]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <form
+            className="md:flex md:flex-wrap md:justify-between md:items-center"
+            ref={form}
+            onSubmit={sendEmail}
           >
             <InputFormComponents
               loading={loading}
@@ -154,8 +158,8 @@ const ContactComponents = () => {
                 <IoIosSend />
               </button>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
 
         <div
           className=" h-[50%] md:flex justify-between flex-col items-center "
@@ -163,7 +167,7 @@ const ContactComponents = () => {
           data-aos-anchor-placement="center-bottom"
         >
           <ul className=" h-[48%] w-full  flex flex-wrap justify-center gap-8 items-center text-[#c7c6d3]">
-            {/* <li className="max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110 h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
+            <li className="max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110 h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
@@ -171,23 +175,13 @@ const ContactComponents = () => {
               >
                 <FaGithub className=" w-[50%] h-[50%]" />
               </a>
-            </li> */}
-
-            <li className="max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
-              <a
-                className=" w-full h-full flex justify-center items-center"
-                // target="_blank"
-                // href="https://www.instagram.com/?hl=en"
-              >
-                <SiGmail className=" w-[50%] h-[50%]" />
-              </a>
             </li>
 
             <li className="max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
-                // href="https://www.facebook.com/zinmar.lay.3720"
+                href="https://www.facebook.com/profile.php?id=100007569554931&mibextid=ZbWKwL"
               >
                 <FaFacebook className=" w-[50%] h-[50%]" />
               </a>
@@ -197,12 +191,12 @@ const ContactComponents = () => {
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
-                // href="https://www.instagram.com/zinmar.lay.3720/?fbclid=IwZXh0bgNhZW0CMTAAAR1ojaQlywP1vUY3iDPnbu99DhFs8eOvZQSKpdwa6BHKfgiColkTt0HGNGo_aem_AQD6Q-p12sRFl3IWNuRlckrKupvdw3LHxzEfut6Z3gqFn13XyrgbxBM-ptsufFenLvasRZjEymdXV78z0R-bzLN5"
+                href="https://www.instagram.com/arrkuu07?igsh=aGpqb2twZWNrY3Bu"
               >
                 <FaInstagramSquare className=" w-[50%] h-[50%]" />
               </a>
             </li>
-            {/* <li className=" max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
+            <li className=" max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
@@ -210,9 +204,9 @@ const ContactComponents = () => {
               >
                 <FaLinkedin className=" w-[50%] h-[50%]" />
               </a>
-            </li> */}
+            </li>
 
-            {/* <li className=" max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
+            <li className=" max-sm:w-[40%] max-sm:h-[25%] hover:border-white transition-all hover:scale-110  h-[45%] w-[25%] flex justify-center items-center font-bold md:text-xl border border-zinc-700 p-2 rounded-3xl">
               <a
                 className=" w-full h-full flex justify-center items-center"
                 target="_blank"
@@ -220,10 +214,10 @@ const ContactComponents = () => {
               >
                 <SiNetlify className=" w-[50%] h-[50%]" />
               </a>
-            </li> */}
+            </li>
           </ul>
           <div
-            className="h-[50%] flex flex-col justify-between gap-5"
+            className="h-[50%] flex flex-col justify-evenly gap-5"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
           >
