@@ -6,7 +6,7 @@ import microsoft from "../image/microsoft.jpg";
 import computerBassic from "../image/computerBassic.png";
 
 const AboutComponents = () => {
-  const cvPDF = "./CV(zmo)1.pdf";
+  const cvPDF = "./CV(aks).pdf";
 
   return (
     <div

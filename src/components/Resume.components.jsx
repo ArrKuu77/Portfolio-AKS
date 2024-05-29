@@ -126,19 +126,19 @@ const ResumeComponents = () => {
         <div
           data-aos="fade-down"
           data-aos-easing="ease-in-sine"
-          className=" h-[20%] "
+          className=" h-[25%] flex flex-col justify-between "
         >
-          <div className=" h-[13%]">
-            <h1>skill</h1>
+          <div className=" h-[10%] text-2xl underline font-bold">
+            <h1>Skill</h1>
           </div>
-          <div className=" h-[80%] " ref={pBarRef}>
+          <div className=" h-[87%] " ref={pBarRef}>
             {show && (
               <div className=" h-full flex flex-col justify-between">
-                <ProgressBar num={95} skill={"HTML"} />
-                <ProgressBar num={90} skill={"CSS"} />
-                <ProgressBar num={78} skill={"JavaScript"} />
-                <ProgressBar num={75} skill={"React"} />
-                <ProgressBar num={65} skill={"Redux Toolkit"} />
+                <ProgressBar num={90} skill={"HTML"} />
+                <ProgressBar num={75} skill={"CSS"} />
+                <ProgressBar num={85} skill={"JavaScript"} />
+                <ProgressBar num={80} skill={"React"} />
+                <ProgressBar num={70} skill={"Redux Toolkit"} />
                 <ProgressBar num={60} skill={"RTK Query "} />
               </div>
             )}

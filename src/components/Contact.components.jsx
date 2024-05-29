@@ -125,7 +125,7 @@ const ContactComponents = () => {
                 <div
                   className={`${
                     emailSuccess ? "flex" : "hidden"
-                  }   justify-center animate-bounce text-2xl  items-center max-sm:w-full md:w-1/2 text-green-600 mx-auto`}
+                  }   justify-center animate-bounce md:text-3xl max-sm:text-2xl items-center max-sm:w-full md:w-1/2 text-orange-400 mx-auto`}
                 >
                   <IoCheckmarkDoneSharp />
                   <h1>Send Massage is successful</h1>
@@ -236,13 +236,13 @@ const ContactComponents = () => {
               <div className=" md:w-[25%]">
                 <h2>Phone Number</h2>
                 <p className="text-stone-400 border-b-0 cursor-pointer hover:text-white hover:border-b duration-1000 translate-x-0 hover:translate-x-2 transition-all">
-                  09425826867
+                  09250676890
                 </p>
               </div>
               <div className=" md:w-[25%]">
                 <h2>Email</h2>
                 <p className="text-stone-400 border-b-0 cursor-pointer hover:text-white hover:border-b duration-1000 translate-x-0 hover:translate-x-2 transition-all">
-                  zinmarlay768@gmail.com
+                  aungkungsan@gmail.com
                 </p>
               </div>
             </div>

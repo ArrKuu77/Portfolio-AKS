@@ -16,7 +16,7 @@ const ProgressBar = ({ num, skill }) => {
   });
   return (
     <div className=" h-[13%]">
-      <div className=" flex justify-between items-center">
+      <div className=" flex justify-between text-xl items-center">
         <p>{skill}</p>
         <p>{progress}%</p>
       </div>
@@ -25,7 +25,7 @@ const ProgressBar = ({ num, skill }) => {
           className=" bg-crazy-gradient h-2 rounded-full"
           style={{
             width: `${progress}%`,
-            transition: "width 2s ease-in-out",
+            transition: "width 1s ease-in-out",
           }}
         ></div>
       </div>
