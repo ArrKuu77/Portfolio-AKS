@@ -8,7 +8,7 @@ const postfolioImg = ({
   infoCRUD,
   fade,
 }) => {
-  console.log(infoImg);
+  // console.log(infoImg);
   return (
     <div
       className=" h-full w-2/5 max-sm:w-full  rounded-3xl border border-zinc-700 relative   "

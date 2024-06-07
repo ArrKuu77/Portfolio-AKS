@@ -11,11 +11,12 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { PiStarFourFill } from "react-icons/pi";
 import ProgressBar from "./ProgressBar.Resume";
+import SkillImg from "./SkillImg";
 
 const ResumeComponents = () => {
   const [show, setShow] = useState(false);
   const pBarRef = useRef();
-  console.log(show);
+  // console.log(show);
 
   const updateScrollPosition = () => {
     const sectionPos = pBarRef.current.getBoundingClientRect().top;
@@ -34,7 +35,7 @@ const ResumeComponents = () => {
 
   return (
     <div
-      className=" z-10 md:h-[20%] max-sm:h-[15%]  "
+      className=" z-10 md:h-[23%] max-sm:h-[17%]  "
       data-aos="fade-up"
       data-aos-delay="500"
       data-aos-duration="1000"
@@ -42,7 +43,7 @@ const ResumeComponents = () => {
       id="resume"
     >
       <div className=" flex flex-col justify-around gap-3 h-full">
-        <div className=" md:h-[15%] max-sm:h-[10%] flex justify-evenly flex-col">
+        <div className=" md:h-[12%] max-sm:h-[10%] flex justify-evenly flex-col">
           <div className=" max-sm:w-1/2 border border-zinc-700 w-1/6 flex items-center justify-evenly p-2 rounded-2xl">
             <PiStarFourFill />
             <p>Resume</p>
@@ -62,7 +63,7 @@ const ResumeComponents = () => {
         </div>
         {/* education */}
         <div
-          className=" md:h-[40%] max-sm:h-[45%] flex flex-col justify-evenly"
+          className=" md:h-[35%] max-sm:h-[45%] flex flex-col justify-evenly"
           data-aos="zoom-in-up"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
@@ -100,7 +101,7 @@ const ResumeComponents = () => {
                   </p>
                 </div>
               </div>
-              <div className="max-sm:h-[40%]  w-full flex max-sm:flex-col justify-between md:items-center border-y border-gray-600 py-2 ">
+              <div className="max-sm:h-[45%]  w-full flex max-sm:flex-col justify-between md:items-center border-y border-gray-600 py-2 ">
                 <div className=" md:w-[20%]">
                   <p className="  text-gray-500 md:text-lg">2022</p>
                 </div>
@@ -142,6 +143,15 @@ const ResumeComponents = () => {
                 <ProgressBar num={60} skill={"RTK Query "} />
               </div>
             )}
+          </div>
+        </div>
+        <div
+          className="  h-[15%]"
+          data-aos="fade-down"
+          data-aos-easing="ease-in-sine"
+        >
+          <div className=" flex justify-center items-center  h-full ">
+            <SkillImg />
           </div>
         </div>
         {/* My favourite tools */}
