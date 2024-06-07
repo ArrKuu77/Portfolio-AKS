@@ -60,7 +60,8 @@ const AboutComponents = () => {
             >
               <h1 className=" md:text-7xl"> {age}</h1>
               <h2 className=" md:text-xl">
-                Date of birth {birthday.day},{birthday.months},{birthday.year}
+                Date of birth {birthday.day},{birthday.months + 1},
+                {birthday.year}
               </h2>
             </div>
             <div
