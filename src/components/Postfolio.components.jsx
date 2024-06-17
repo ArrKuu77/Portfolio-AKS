@@ -4,6 +4,7 @@ import dailyReportOffice from "../image/daily-report-office.jpg";
 import phoneContactsImg from "../image/PhoneContactsImg.jpg";
 import PostfolioImg from "./PostfolioImgExperience/PostfolioImg.PExperience";
 import allCountriesImg from "../image/AllcountriesImg.jpg";
+import TannerGoodImg from "../image/01.jpg";
 const PostfolioComponents = () => {
   return (
     <div
@@ -54,10 +55,10 @@ const PostfolioComponents = () => {
               fade={"fade-right"}
             />
             <PostfolioImg
-              infoImg={dailyReportOffice}
-              infoProject={"DailyReportOffice"}
-              infoInclude={"Tailwind CSS,React, html2pdf"}
-              infoLink={"https://magenta-flan-b5b755.netlify.app"}
+              infoImg={TannerGoodImg}
+              infoProject={"TannerGoods"}
+              infoInclude={"Tailwind CSS,React"}
+              infoLink={"https://tanner-goods-job.netlify.app"}
               infoCRUD={"Create,Read,Update,Delete"}
               fade={"fade-left"}
             />
