@@ -4,7 +4,7 @@ import dailyReportOffice from "../image/daily-report-office.jpg";
 import phoneContactsImg from "../image/PhoneContactsImg.jpg";
 import PostfolioImg from "./PostfolioImgExperience/PostfolioImg.PExperience";
 import allCountriesImg from "../image/AllcountriesImg.jpg";
-import TannerGoodImg from "../image/01.jpg";
+import OnlineShopImg from "../image/online-shop.jpg";
 const PostfolioComponents = () => {
   return (
     <div
@@ -31,12 +31,20 @@ const PostfolioComponents = () => {
         <div className=" md:h-[80%]  w-full max-sm:mx-auto max-sm:overflow-hidden max-sm:h-[85%] ">
           <div className="max-sm:h-full flex md:flex-wrap max-sm:w-full max-sm:flex-col  justify-evenly gap-5 items-center">
             <PostfolioImg
+              infoImg={OnlineShopImg}
+              infoProject={"OnlineShopApi"}
+              infoInclude={"Tailwind CSS,React,Redux,RTKQuery"}
+              infoLink={"https://arrkuushopping.netlify.app/"}
+              infoCRUD={"Read Only"}
+              fade={"fade-right"}
+            />
+            <PostfolioImg
               infoImg={allCountriesImg}
               infoProject={"All Countries"}
               infoInclude={"html,css,js(Api Fetching)"}
               infoLink={"https://arrkuu77.github.io/AllCountryOnlyJavaScript/"}
               infoCRUD={"Read Only"}
-              fade={"fade-right"}
+              fade={"fade-left"}
             />
             <PostfolioImg
               infoImg={phoneContactsImg}
@@ -44,21 +52,13 @@ const PostfolioComponents = () => {
               infoInclude={"Tailwind CSS,React,Redux Toolkit ,RTK Query"}
               infoLink={"https://phone-contact.netlify.app"}
               infoCRUD={"Create,Read,Update,Delete"}
-              fade={"fade-left"}
+              fade={"fade-right"}
             />
             <PostfolioImg
               infoImg={dailyReportOffice}
               infoProject={"DailyReportOffice"}
               infoInclude={"Tailwind CSS,React, html2pdf"}
               infoLink={"https://magenta-flan-b5b755.netlify.app"}
-              infoCRUD={"Create,Read,Update,Delete"}
-              fade={"fade-right"}
-            />
-            <PostfolioImg
-              infoImg={TannerGoodImg}
-              infoProject={"TannerGoods"}
-              infoInclude={"Tailwind CSS,React"}
-              infoLink={"https://tanner-goods-job.netlify.app"}
               infoCRUD={"Create,Read,Update,Delete"}
               fade={"fade-left"}
             />
