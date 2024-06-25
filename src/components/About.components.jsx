@@ -141,7 +141,8 @@ const AboutComponents = () => {
         <a
           className="z-20 cursor-pointer select-none"
           target="_blank"
-          href="https://doc-0o-4c-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/meo06sldiq5bk03co551c5i1gdb7noi5/754u3u3qo5111n5fk5dkkpfefdsc3eab/1715790300000/3/104141507534228198759/APznzabh-N7y50CCkHDg1WPD0HsqcnX-U7bQ7CzmOtO7NhHMDTMRLrYoLFyQL8OhLDaHDNYLFmyC4FAd6heZ3nAs3QgEg73R8isvHjZhg0XtVfxcJ-wMwx2dEJMJu7aHudy2jvck1vstMO-OgGb4gmcoSJjxGZZcgq30VcxmuDtNs02oxlvT0WYkkEDfueX33LojLHTyxiweCcKAxDV-yVv-etyDcjpjM5Pw_cvpjLCLojnDhq_Qx-SNfMFB5kEuR7iT0hQmgEeMV0itI7c3F0NIlic0JtOqdIgpFcNm0379_MwyBnwkhZxeZv_N-1tq2l0gvRAid0uSJOmAatdnnYxO1RnaLKGoyl7pps6YpQ5vtXNS3VggClSttFE6lbBW8ahXFWhl4MLjFDBu6vz7ewKDKDjYzJXl3sy2TanLmZaBt1PTqf2L6_M=?authuser=0&nonce=62kgg22k2shpo&user=104141507534228198759&hash=2l670u8mpfn5qkcsu2v86cvov5k62iq7"
+          href={cvPDF}
+          download
         >
           <div className="  max-sm:hidden md:w-[25%] p-3 rounded-xl md:flex justify-center items-center border border-zinc-700 bg-[#D47904]">
             <button>Download CV</button>
