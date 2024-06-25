@@ -10,10 +10,10 @@ import { Link } from "react-scroll";
 
 const NavBarComponent = () => {
   return (
-    <nav className=" max-sm:rounded-3xl max-sm:transparent-color   max-sm:w-[90%] max-sm:mx-auto md:w-full flex justify-between sticky max-sm:top-[93%] top-8 h-[0.5%]  md:left-[50%] z-30 ">
+    <nav className=" backdrop-blur-sm h-auto bg-transparent max-sm:rounded-3xl max-sm:transparent-color   max-sm:w-[90%] max-sm:mx-auto md:w-full flex justify-between sticky max-sm:top-[93%] top-8  md:left-[50%] z-30 ">
       <div className=" w-[70%] md:w-[65%] ">
         <ul className=" flex justify-evenly items-center h-full w-full">
-          <li className="   md:text-2xl md:p-5 rounded-3xl max-sm:h-full max-sm:w-1/5 max-sm:flex max-sm:justify-center">
+          <li className="    md:text-2xl md:p-5 rounded-3xl max-sm:h-full max-sm:w-1/5 max-sm:flex max-sm:justify-center">
             <Link
               // activeClass="active"
               to="hero"

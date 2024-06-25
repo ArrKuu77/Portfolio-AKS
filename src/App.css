@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .active {
-  @apply md:p-5 border border-zinc-700 rounded-3xl bg-opacity-40 bg-slate-600;
+  @apply md:p-5 border border-zinc-700 rounded-3xl bg-opacity-95 bg-slate-600;
 }
 .transparent-color {
   background-color: rgba(255, 255, 255, 0.5);

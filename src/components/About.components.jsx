@@ -6,7 +6,7 @@ import microsoft from "../image/microsoft.jpg";
 import computerBassic from "../image/computerBassic.png";
 
 const AboutComponents = () => {
-  const cvPDF = "./CV(aks).pdf";
+  const cvPDF = "./Aung Kaung San_Resume_635.pdf";
   const [birthday, setBirthday] = useState({ year: 2001, months: 3, day: 7 });
   const { year, months, day } = birthday;
   const [age, setAge] = useState();

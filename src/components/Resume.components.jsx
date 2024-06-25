@@ -136,7 +136,10 @@ const ResumeComponents = () => {
             {show && (
               <div className=" h-full flex flex-col justify-between">
                 <ProgressBar num={90} skill={"HTML"} />
-                <ProgressBar num={75} skill={"CSS"} />
+                <ProgressBar
+                  num={85}
+                  skill={"CSS(Ui Development ,Tailwind css ,Bootstrap)"}
+                />
                 <ProgressBar num={85} skill={"JavaScript"} />
                 <ProgressBar num={80} skill={"React"} />
                 <ProgressBar num={70} skill={"Redux Toolkit"} />

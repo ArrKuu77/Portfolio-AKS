@@ -11,7 +11,7 @@ const HeroCcomponents = () => {
   // useEffect(() => {
   //   AOS.init({ duration: 2000 });
   // }, []);
-  const cvPDF = "./CV(aks).pdf";
+  const cvPDF = "./Aung Kaung San_Resume_635.pdf";
   const [text, { isDelete }] = useTypewriter({
     words: ["Aung Kaung San"],
     loop: 0,
