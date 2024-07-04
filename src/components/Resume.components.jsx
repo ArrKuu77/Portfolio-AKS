@@ -138,7 +138,7 @@ const ResumeComponents = () => {
                 <ProgressBar num={90} skill={"HTML"} />
                 <ProgressBar
                   num={85}
-                  skill={"CSS(Ui Development ,Tailwind css ,Bootstrap)"}
+                  skill={"CSS(SASS,Tailwind css ,Bootstrap)"}
                 />
                 <ProgressBar num={85} skill={"JavaScript"} />
                 <ProgressBar num={80} skill={"React"} />
