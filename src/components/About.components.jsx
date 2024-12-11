@@ -155,7 +155,7 @@ const AboutComponents = () => {
           data-aos-delay="500"
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
-          className="  h-[40%] max-sm:h-[40%] max-sm:w-full max-sm:overflow-hidden"
+          className="  h-[40%] max-sm:h-[30%] max-sm:w-full max-sm:overflow-hidden"
         >
           <div className=" max-sm:h-full flex max-sm:flex-col justify-between max-sm:w-full">
             <div className="  md:w-[45%]  border  border-zinc-700 rounded-3xl p-3 flex justify-between flex-col   ">

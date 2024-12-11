@@ -1,10 +1,13 @@
 import React from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import dailyReportOffice from "../image/daily-report-office.jpg";
+import MovieDB from "../image/movie-db.jpg";
 import phoneContactsImg from "../image/PhoneContactsImg.jpg";
 import PostfolioImg from "./PostfolioImgExperience/PostfolioImg.PExperience";
 import allCountriesImg from "../image/AllcountriesImg.jpg";
 import OnlineShopImg from "../image/online-shop.jpg";
+import homeCouple from "../image/home-couple.png";
+
 const PostfolioComponents = () => {
   return (
     <div
@@ -59,6 +62,22 @@ const PostfolioComponents = () => {
               infoProject={"DailyReportOffice"}
               infoInclude={"Tailwind CSS,React, html2pdf"}
               infoLink={"https://magenta-flan-b5b755.netlify.app"}
+              infoCRUD={"Create,Read,Update,Delete"}
+              fade={"fade-left"}
+            />
+            <PostfolioImg
+              infoImg={MovieDB}
+              infoProject={"Movie-DB"}
+              infoInclude={"Tailwind CSS,React,RTKQuery,Authentication"}
+              infoLink={"https://arrkuu-movie-db.netlify.app"}
+              infoCRUD={"Create,Read,Update,Delete"}
+              fade={"fade-right"}
+            />
+            <PostfolioImg
+              infoImg={homeCouple}
+              infoProject={"Realestate-Test"}
+              infoInclude={"Tailwind CSS,React,Team Git,Git Hub"}
+              infoLink={"https://mcf-3-realestate-test.netlify.app/"}
               infoCRUD={"Create,Read,Update,Delete"}
               fade={"fade-left"}
             />

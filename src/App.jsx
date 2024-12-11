@@ -35,7 +35,7 @@ const App = () => {
           <ProfileComponent />
         </div>
         <div className=" w-4/6 my-3 relative max-sm:w-full ">
-          <div className="relative md:h-[7500px] max-sm:h-[9500px] my-3">
+          <div className="relative md:h-[11000px] max-sm:h-[13500px] my-3">
             <HeroComponents />
             <PostfolioComponents />
             <AboutComponents />
