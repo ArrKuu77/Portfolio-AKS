@@ -76,7 +76,7 @@ const ContactComponents = () => {
         </div>
 
         <div
-          className="  max-sm:h-[32%] md:h-[35%]"
+          className="  max-sm:h-[32%] md:h-[25%]"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >

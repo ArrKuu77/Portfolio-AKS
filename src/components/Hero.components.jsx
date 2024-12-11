@@ -69,7 +69,7 @@ const HeroCcomponents = () => {
               <p>Download CV</p> <PiDownloadSimpleBold />
             </button>
           </a>
-          <div className="md:hidden w-full items-center   flex ">
+          <div className="md:hidden w-full items-center max-sm:justify-center   flex ">
             <AnimatedText className=" " />
             <div className=" absolute w-[25%] flex justify-center items-centern ">
               <BiDownArrowAlt className=" md:text-3xl cursor-pointer  hover:animate-bounce " />

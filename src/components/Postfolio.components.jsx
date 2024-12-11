@@ -11,7 +11,7 @@ import homeCouple from "../image/home-couple.png";
 const PostfolioComponents = () => {
   return (
     <div
-      className=" z-10 max-sm:h-[25%] md:h-[16%]   md:mt-10 max-sm:mt-5   "
+      className=" z-10 max-sm:h-[35%] md:h-[23%]   md:mt-10 max-sm:mt-5   "
       id="portfolio"
       // data-aos-offset="-1000"
       data-aos="fade-up"
@@ -27,7 +27,7 @@ const PostfolioComponents = () => {
           <PiStarFourFill />
           <p>Protfolio</p>
         </div>
-        <div className=" w-full md:text-7xl max-sm:text-5xl  max-sm:h-[7%] flex justify-center items-center  ">
+        <div className=" w-full md:text-7xl max-sm:text-5xl  max-sm:h-[5%] flex justify-center items-center  ">
           {/* <h1>Check out my featured projects</h1> */}
           <h1>Check out my projects</h1>
         </div>
