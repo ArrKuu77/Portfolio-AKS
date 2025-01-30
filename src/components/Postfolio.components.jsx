@@ -2,7 +2,8 @@ import React from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import dailyReportOffice from "../image/daily-report-office.jpg";
 import MovieDB from "../image/movie-db.jpg";
-import phoneContactsImg from "../image/PhoneContactsImg.jpg";
+// import phoneContactsImg from "../image/PhoneContactsImg.jpg";
+import kindergartenImg from "../image/kindergarten.jpg";
 import PostfolioImg from "./PostfolioImgExperience/PostfolioImg.PExperience";
 import allCountriesImg from "../image/AllcountriesImg.jpg";
 import OnlineShopImg from "../image/online-shop.jpg";
@@ -49,14 +50,15 @@ const PostfolioComponents = () => {
               infoCRUD={"Read Only"}
               fade={"fade-left"}
             />
-            <PostfolioImg
+
+            {/* <PostfolioImg
               infoImg={phoneContactsImg}
               infoProject={"Phone Contacts"}
               infoInclude={"Tailwind CSS,React,Redux Toolkit ,RTK Query"}
               infoLink={"https://phone-contact.netlify.app"}
               infoCRUD={"Create,Read,Update,Delete"}
               fade={"fade-right"}
-            />
+            /> */}
             <PostfolioImg
               infoImg={dailyReportOffice}
               infoProject={"DailyReportOffice"}
@@ -74,11 +76,19 @@ const PostfolioComponents = () => {
               fade={"fade-right"}
             />
             <PostfolioImg
+              infoImg={kindergartenImg}
+              infoProject={"kindergarten school"}
+              infoInclude={"Tailwind CSS,React,Team Git,Git Hub"}
+              infoLink={"https://tinyverse-mcf3.netlify.app/"}
+              infoCRUD={"Read only"}
+              fade={"fade-right"}
+            />
+            <PostfolioImg
               infoImg={homeCouple}
               infoProject={"Realestate-Test"}
               infoInclude={"Tailwind CSS,React,Team Git,Git Hub"}
               infoLink={"https://mcf-3-realestate-test.netlify.app/"}
-              infoCRUD={"Create,Read,Update,Delete"}
+              infoCRUD={"Read only"}
               fade={"fade-left"}
             />
           </div>
