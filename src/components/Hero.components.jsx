@@ -22,7 +22,7 @@ const HeroCcomponents = () => {
   // console.log(helper);
   return (
     <div
-      className=" relative md:h-[7%] h-[6%] animate-none  "
+      className=" relative md:h-[6%] h-[6%] animate-none  "
       id="hero"
       data-aos="fade-up"
       // data-aos-offset="200"

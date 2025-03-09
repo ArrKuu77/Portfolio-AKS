@@ -8,6 +8,7 @@ import PostfolioImg from "./PostfolioImgExperience/PostfolioImg.PExperience";
 import allCountriesImg from "../image/AllcountriesImg.jpg";
 import OnlineShopImg from "../image/online-shop.jpg";
 import homeCouple from "../image/home-couple.png";
+import reviewReportImg from "../image/images.png";
 
 const PostfolioComponents = () => {
   return (
@@ -32,7 +33,7 @@ const PostfolioComponents = () => {
           {/* <h1>Check out my featured projects</h1> */}
           <h1>Check out my projects</h1>
         </div>
-        <div className=" md:h-[80%]  w-full max-sm:mx-auto max-sm:overflow-hidden max-sm:h-[85%] ">
+        <div className=" md:h-[80%]  w-full max-sm:mx-auto max-sm:overflow-hidden max-sm:h-[90%] ">
           <div className="max-sm:h-full flex md:flex-wrap max-sm:w-full max-sm:flex-col  justify-evenly gap-5 items-center">
             <PostfolioImg
               infoImg={OnlineShopImg}
@@ -42,6 +43,7 @@ const PostfolioComponents = () => {
               infoCRUD={"Read Only"}
               fade={"fade-right"}
             />
+
             <PostfolioImg
               infoImg={allCountriesImg}
               infoProject={"All Countries"}
@@ -62,9 +64,17 @@ const PostfolioComponents = () => {
             <PostfolioImg
               infoImg={dailyReportOffice}
               infoProject={"DailyReportOffice"}
-              infoInclude={"Tailwind CSS,React, html2pdf"}
+              infoInclude={"Tailwind CSS,React, Supabase"}
               infoLink={"https://magenta-flan-b5b755.netlify.app"}
               infoCRUD={"Create,Read,Update,Delete"}
+              fade={"fade-right"}
+            />
+            <PostfolioImg
+              infoImg={reviewReportImg}
+              infoProject={"DailyReportOfficeReview"}
+              infoInclude={"Tailwind CSS,React,Supabase"}
+              infoLink={"https://report-system.netlify.app/"}
+              infoCRUD={"Read,Create,Update,Delete"}
               fade={"fade-left"}
             />
             <PostfolioImg
@@ -81,7 +91,7 @@ const PostfolioComponents = () => {
               infoInclude={"Tailwind CSS,React,Team Git,Git Hub"}
               infoLink={"https://tinyverse-mcf3.netlify.app/"}
               infoCRUD={"Read only"}
-              fade={"fade-right"}
+              fade={"fade-left"}
             />
             <PostfolioImg
               infoImg={homeCouple}
@@ -89,7 +99,7 @@ const PostfolioComponents = () => {
               infoInclude={"Tailwind CSS,React,Team Git,Git Hub"}
               infoLink={"https://mcf-3-realestate-test.netlify.app/"}
               infoCRUD={"Read only"}
-              fade={"fade-left"}
+              fade={"fade-right"}
             />
           </div>
         </div>

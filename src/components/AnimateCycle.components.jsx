@@ -18,7 +18,8 @@ const AnimatedText = () => {
 
   return (
     <div
-      className=" w-[15%] max-sm:w-[25%]  cursor-pointer hover:animate-spin"
+      className=" w-[15%] max-sm:w-[25%]  cursor-pointer animate-spin "
+      style={{ animationDuration: "10s" }}
       dangerouslySetInnerHTML={{ __html: svgCode }}
     />
   );
