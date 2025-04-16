@@ -20,7 +20,7 @@ const ProfileComponent = () => {
             <img
               src={Logo}
               alt=""
-              className=" max-sm:w-10 max-sm:h-10 w-14 h-14 rounded-full"
+              className=" max-sm:w-10 max-sm:h-10 w-10 h-10 rounded-full"
             />
           </div>
           <h1 className=" ms-3 md:text-2xl max-sm:text-xl font-bold ">
@@ -32,7 +32,7 @@ const ProfileComponent = () => {
           <img
             src={imageAKS}
             alt=""
-            className="md:h-[300px] max-sm:h-full w-full mx-auto rounded-xl object-cover object-center"
+            className="md:h-[250px] max-sm:h-full w-full mx-auto rounded-xl object-cover object-center"
           />
         </div>
         {/* Specialization && Based in*/}
