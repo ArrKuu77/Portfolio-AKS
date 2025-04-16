@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
 
-import imageAKS from "../image/AKS.jpg";
+import imageAKS from "../image/AKSProfile.jpg";
 import Logo from "../image/logo1.jpg";
 import { Link } from "react-scroll";
 
@@ -15,12 +15,12 @@ const ProfileComponent = () => {
     <div className="  max-sm:h-[85vh] max-sm:mt-[5%] md:sticky md:top-5 md:left-16 w-full bg-[#161616] border border-zinc-700 p-1 rounded-3xl ">
       <div className=" max-sm:h-[95%] w-11/12 flex flex-col justify-between gap-2 mx-auto my-3 ">
         {/* Logo and Name */}
-        <div className=" max-sm:h-[15%]  flex  justify-around items-center">
+        <div className=" max-sm:h-[10%]  flex  justify-around items-center">
           <div className="   border rounded-3xl p-1 wi border-white font-bold text-[#2b2e4a] md:text-7xl">
             <img
               src={Logo}
               alt=""
-              className=" max-sm:w-20 max-sm:h-20 w-14 h-14 rounded-full"
+              className=" max-sm:w-10 max-sm:h-10 w-14 h-14 rounded-full"
             />
           </div>
           <h1 className=" ms-3 md:text-2xl max-sm:text-xl font-bold ">
@@ -28,11 +28,11 @@ const ProfileComponent = () => {
           </h1>
         </div>
         {/* Photo */}
-        <div className=" max-sm:h-[35%]   ">
+        <div className=" max-sm:h-[45%]   ">
           <img
             src={imageAKS}
             alt=""
-            className="md:h-[200px] max-sm:h-full w-full mx-auto rounded-xl   object-cover"
+            className="md:h-[300px] max-sm:h-full w-full mx-auto rounded-xl object-cover object-center"
           />
         </div>
         {/* Specialization && Based in*/}
