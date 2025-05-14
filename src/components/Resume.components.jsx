@@ -141,6 +141,7 @@ const ResumeComponents = () => {
                 <ProgressBar num={80} skill={"React"} />
                 <ProgressBar num={70} skill={"Redux Toolkit"} />
                 <ProgressBar num={60} skill={"RTK Query "} />
+                <ProgressBar num={50} skill={"SupaBase"} />
               </div>
             )}
           </div>

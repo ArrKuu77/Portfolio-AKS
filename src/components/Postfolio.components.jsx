@@ -9,6 +9,7 @@ import allCountriesImg from "../image/AllcountriesImg.jpg";
 import OnlineShopImg from "../image/online-shop.jpg";
 import homeCouple from "../image/home-couple.png";
 import reviewReportImg from "../image/images.png";
+import WezetaImg from "../image/logoSmall.png";
 
 const PostfolioComponents = () => {
   return (
@@ -45,11 +46,11 @@ const PostfolioComponents = () => {
             />
 
             <PostfolioImg
-              infoImg={allCountriesImg}
-              infoProject={"All Countries"}
-              infoInclude={"html,css,js(Api Fetching)"}
-              infoLink={"https://arrkuu77.github.io/AllCountryOnlyJavaScript/"}
-              infoCRUD={"Read Only"}
+              infoImg={WezetaImg}
+              infoProject={"We Zeta"}
+              infoInclude={"Realtime Supa Base,React"}
+              infoLink={"https://wezeta.netlify.app/"}
+              infoCRUD={"Authenticationsystem(Account)"}
               fade={"fade-left"}
             />
 
